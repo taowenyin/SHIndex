@@ -1,0 +1,133 @@
+.health {
+    color: white;
+    background-image: linear-gradient(45deg, #125fb5, #258cff);
+}
+
+.health-title {
+    margin-top: 60px;
+    max-width: 350px;
+    line-height: 2;
+}
+
+.health-description {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.health-video {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+section .section-divider {
+    display: block;
+    width: 200px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgba(32,204,127,0.5);
+}
+
+.bucket {
+    margin-top: 60px;
+}
+
+.bucket .glyphicon {
+    font-size: 44px;
+    color: rgba(37,140,255,0.5);
+}
+
+.bucket h2, .bucket p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #677087;
+}
+
+.bucket p {
+    line-height: 2;
+}
+
+section.carousel-leader {
+    background-color: #F4F4F4;
+    color: #677087;
+}
+
+.carousel-leader .carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-leader .carousel-indicators .active {
+    background: rgba(0,0,0,0.7);
+}
+
+.carousel-indicators li {
+    border-color: rgba(0,0,0,0.3);
+}
+
+.carousel-leader blockquote {
+    border-left: 0;
+    max-width: 800px;
+    font-style: italic;
+    font-size: 24px;
+    color: rgba(37,140,255,0.9);
+    text-align: center;
+    line-height: 48px;
+    padding: 0px 70px;
+    margin: 20px auto 30px;
+    padding: 0 70px;
+    position: relative;
+}
+
+.carousel-leader blockquote span {
+    font-size: 50px;
+    color: rgba(37,140,255,0.1);
+    position: absolute;
+    left: 0;
+}
+
+.carousel-leader .face img {
+    width: 130px;
+    height: 130px;
+}
+
+.carousel-leader .bio {
+    margin-top: 10px;
+}
+
+.carousel-leader .bio .name {
+    font-weight: 700;
+    line-height: 2;
+}
+
+.carousel-leader .bio .job {
+    font-weight: 400;
+}
+
+section.free-try {
+    background-color: #258cff;
+    color: white;
+}
+
+.free-try .login-btn {
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.site-footer {
+    background-color: #258cff;
+    padding: 40px 0;
+    font-size: 13px;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
