@@ -1,0 +1,196 @@
+/* 
+summary : 扩展Bootstrap按钮颜色种类
+desc : btn-grass为草绿，btn-transparent为透明
+*/
+.btn-grass {
+  color: #fff;
+  background-color: #51d696;
+  border-color: #51d696;
+}
+.btn-grass:hover,
+.btn-grass:focus,
+.btn-grass.focus,
+.btn-grass:active,
+.btn-grass.active,
+.open > .dropdown-toggle.btn-grass {
+  color: #fff;
+  background-color: #1DB671;
+  border-color: #1DB671;
+}
+.btn-grass:active,
+.btn-grass.active,
+.open > .dropdown-toggle.btn-grass {
+  background-image: none;
+}
+.btn-grass.disabled,
+.btn-grass[disabled],
+fieldset[disabled] .btn-grass,
+.btn-grass.disabled:hover,
+.btn-grass[disabled]:hover,
+fieldset[disabled] .btn-grass:hover,
+.btn-grass.disabled:focus,
+.btn-grass[disabled]:focus,
+fieldset[disabled] .btn-grass:focus,
+.btn-grass.disabled.focus,
+.btn-grass[disabled].focus,
+fieldset[disabled] .btn-grass.focus,
+.btn-grass.disabled:active,
+.btn-grass[disabled]:active,
+fieldset[disabled] .btn-grass:active,
+.btn-grass.disabled.active,
+.btn-grass[disabled].active,
+fieldset[disabled] .btn-grass.active {
+  background-color: #51d696;
+  border-color: #51d696;
+}
+.btn-grass .badge {
+  color: #51d696;
+  background-color: #fff;
+}
+
+.btn-transparent {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent.focus,
+.btn-transparent:active,
+.btn-transparent.active,
+.open > .dropdown-toggle.btn-transparent {
+  color: #258cff;
+  background-color: white;
+  border-color: white;
+}
+.btn-transparent:active,
+.btn-transparent.active,
+.open > .dropdown-toggle.btn-transparent {
+  background-image: none;
+}
+.btn-transparent.disabled,
+.btn-transparent[disabled],
+fieldset[disabled] .btn-transparent,
+.btn-transparent.disabled:hover,
+.btn-transparent[disabled]:hover,
+fieldset[disabled] .btn-transparent:hover,
+.btn-transparent.disabled:focus,
+.btn-transparent[disabled]:focus,
+fieldset[disabled] .btn-transparent:focus,
+.btn-transparent.disabled.focus,
+.btn-transparent[disabled].focus,
+fieldset[disabled] .btn-transparent.focus,
+.btn-transparent.disabled:active,
+.btn-transparent[disabled]:active,
+fieldset[disabled] .btn-transparent:active,
+.btn-transparent.disabled.active,
+.btn-transparent[disabled].active,
+fieldset[disabled] .btn-transparent.active {
+  background-color: #51d696;
+  border-color: #51d696;
+}
+.btn-transparent .badge {
+  color: #51d696;
+  background-color: #fff;
+}
+
+/* 
+summary : 扩展Bootstrap导航栏颜色种类
+desc : navbar-transparent为草绿
+*/
+.navbar-transparent {
+  background-color: transparent;
+  border-color: #4589D6;
+}
+.navbar-transparent .navbar-brand {
+  color: #BFD5EE;
+}
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:focus {
+  color: #BFD5EE;
+  background-color: transparent;
+}
+.navbar-transparent .navbar-text {
+  color: #BFD5EE;
+}
+.navbar-transparent .navbar-nav > li > a {
+  color: #BFD5EE;
+}
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:focus {
+  color: white;
+  background-color: transparent;
+}
+.navbar-transparent .navbar-nav > .active > a,
+.navbar-transparent .navbar-nav > .active > a:hover,
+.navbar-transparent .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #4589D6;
+}
+.navbar-transparent .navbar-nav > .disabled > a,
+.navbar-transparent .navbar-nav > .disabled > a:hover,
+.navbar-transparent .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-transparent .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-transparent .navbar-toggle:hover,
+.navbar-transparent .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-transparent .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-transparent .navbar-collapse,
+.navbar-transparent .navbar-form {
+  border-color: #4589D6;
+}
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: #BFD5EE;
+  background-color: #4589D6;
+}
+@media (max-width: 767px) {
+  .navbar-transparent .navbar-nav .open .dropdown-menu > li > a {
+    color: #BFD5EE;
+  }
+  .navbar-transparent .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-transparent .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #BFD5EE;
+    background-color: transparent;
+  }
+  .navbar-transparent .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-transparent .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-transparent .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #BFD5EE;
+    background-color: #e7e7e7;
+  }
+  .navbar-transparent .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-transparent .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-transparent .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-transparent .navbar-link {
+  color: #777;
+}
+.navbar-transparent .navbar-link:hover {
+  color: #333;
+}
+.navbar-transparent .btn-link {
+  color: #777;
+}
+.navbar-transparent .btn-link:hover,
+.navbar-transparent .btn-link:focus {
+  color: #333;
+}
+.navbar-transparent .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-transparent .btn-link:hover,
+.navbar-transparent .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-transparent .btn-link:focus {
+  color: #ccc;
+}

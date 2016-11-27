@@ -1,0 +1,221 @@
+/*
+desc : 顶部巨幕样式
+*/
+.imax {
+    color: white;
+    background-image: linear-gradient(45deg, #125fb5, #258cff);
+}
+
+/*
+desc : 顶部巨幕中导航按钮的样式
+*/
+.imax .navbar-btn {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+/*
+desc : 顶部巨幕中导航按钮激活的样式
+*/
+.imax .navbar-btn.active {
+    box-shadow: none;
+}
+
+/*
+desc : 顶部巨幕中系统概述的样式
+*/
+.imax-summary {
+    margin-top: 60px;
+    max-width: 350px;
+    line-height: 2;
+}
+
+/*
+desc : 顶部巨幕中系统描述的样式
+*/
+.imax-description {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+/*
+desc : 顶部巨幕中系统描述的样式
+*/
+.imax-video {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*
+desc : 每个小节的内边距
+*/
+section {
+    padding: 40px 0px;
+}
+
+/*
+desc : 每个小节标题的分割线
+*/
+section .section-title-divider {
+    display: block;
+    width: 200px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgba(32,204,127,0.5);
+}
+
+/*
+desc : 小节中水桶边距样式
+*/
+.section-bucket {
+    margin-top: 60px;
+}
+
+/*
+desc : 小节中水桶图标样式
+*/
+.section-bucket .glyphicon {
+    font-size: 44px;
+    color: rgba(37,140,255,0.5);
+}
+
+/*
+desc : 小节中水桶标题和内容的样式
+*/
+.section-bucket h2, .section-bucket p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #677087;
+}
+
+/*
+desc : 小节中水桶内容的样式
+*/
+.section-bucket p {
+    line-height: 2;
+}
+
+/*
+desc : 滚动小节中演讲者的样式
+*/
+section.carousel-presenter {
+    background-color: #F4F4F4;
+    color: #677087;
+}
+
+/*
+desc : 滚动小节中标记点的位置
+*/
+.carousel-presenter .carousel-indicators {
+    bottom: -40px;
+}
+
+/*
+desc : 滚动小节中标记点激活状态的样式
+*/
+.carousel-presenter .carousel-indicators .active {
+    background: rgba(0,0,0,0.7);
+}
+
+/*
+desc : 滚动小节中标记点默认状态的样式
+*/
+.carousel-presenter .carousel-indicators li {
+    border-color: rgba(0,0,0,0.3);
+}
+
+/*
+desc : 滚动小节中引用的样式
+*/
+.carousel-presenter blockquote {
+    border-left: 0;
+    max-width: 800px;
+    font-style: italic;
+    font-size: 24px;
+    color: rgba(37,140,255,0.9);
+    text-align: center;
+    line-height: 48px;
+    padding: 0px 70px;
+    margin: 20px auto 30px;
+    padding: 0 70px;
+    position: relative;
+}
+
+/*
+desc : 滚动小节中引用文字左上角图标的样式
+*/
+.carousel-presenter blockquote span {
+    font-size: 50px;
+    color: rgba(37,140,255,0.1);
+    position: absolute;
+    left: 0;
+}
+
+/*
+desc : 滚动小节中头像的样式
+*/
+.carousel-presenter .face img {
+    width: 130px;
+    height: 130px;
+}
+
+/*
+desc : 滚动小节中名片的样式
+*/
+.carousel-presenter .bio {
+    margin-top: 10px;
+}
+
+/*
+desc : 滚动小节中名片名字的样式
+*/
+.carousel-presenter .bio .name {
+    font-weight: 700;
+    line-height: 2;
+}
+
+/*
+desc : 滚动小节中名片工作的样式
+*/
+.carousel-presenter .bio .job {
+    font-weight: 400;
+}
+
+/*
+desc : 免费试用小节中的样式
+*/
+section.free-try {
+    background-color: #258cff;
+    color: white;
+}
+
+/*
+desc : 免费试用小节中登陆的样式
+*/
+.free-try .login-btn {
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*
+desc : 页面尾部的样式
+*/
+.site-footer {
+    background-color: #258cff;
+    padding: 40px 0;
+    font-size: 13px;
+}
+
+/*
+desc : 页面尾部超链接的样式
+*/
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
